@@ -13,3 +13,16 @@ function truncate(string $texto, int $cantidad) : string {
         return $texto;
     }
 }
+
+function estaAutenticado() : bool {
+    session_start();
+    
+    $auth = $_SESSION['login'];
+
+    if ($auth) {
+        return true;
+    }
+
+    return false;
+
+}
