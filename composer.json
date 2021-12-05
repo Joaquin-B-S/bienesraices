@@ -1,0 +1,17 @@
+{
+    "name": "joaquin/bienesraices",
+    "description": "POO",
+    "type": "project",
+    "authors": [
+        {
+            "name": "joaquin",
+            "email": "joaquinkappa@hotmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\" : "./classes"
+        }
+    }
+}
